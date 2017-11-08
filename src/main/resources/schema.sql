@@ -1,9 +1,3 @@
--- CREATE TABLE base_model (
---   id           BIGINT PRIMARY KEY AUTO_INCREMENT,
---   created      DATE,
---   last_modified DATE
--- );
-
 CREATE TABLE artist (
   id            BIGINT PRIMARY KEY AUTO_INCREMENT,
   name          VARCHAR(100),
